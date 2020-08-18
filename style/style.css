@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
-    background: rgb(255,106,0);
-   
+    padding:0;
+    margin:0;
+    background: rgba(255,106,0,1);
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    margin:20px 30px;
+    text-align: center;
+
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.column{
+    width: 25%;
+    float: left;
+    margin: 60px;
 }
