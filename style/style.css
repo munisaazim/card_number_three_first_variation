@@ -14,11 +14,7 @@ h1{
     font-size: 35px;
     letter-spacing: 4px;
 }
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .row:after{
     content: "";
     display: table;
