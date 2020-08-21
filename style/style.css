@@ -8,9 +8,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 h1{
-    margin:20px 30px;
+    margin:40px 30px;
     text-align: center;
-
+    color:#e43f5a;
+    font-size: 35px;
+    letter-spacing: 4px;
 }
 .row{
     display: flex;
@@ -26,7 +28,7 @@ h1{
 .column{
     width: 29%;
     float: left;
-    margin:30px;
+    margin:30px 20px;
     height: 500px;
     border-radius: 20px;
     background-color: white;
@@ -38,15 +40,24 @@ h1{
 .column.infoTwo{
     width: 350px;
     background-color: white;
+    height: 550px;
 }
 .column.infoThree{
     width: 320px;
     background-color: white;
 }
+.column.infoTwo .header h3.premium{
+    font-size: 30px;
+}
+.column.infoOne .cost h2{
+    color: gray;
+}
 .icon{
     text-align: center;
-    font-size: 40px;
-    color: rgba(255,106,0,1); ;
+    font-size: 50px;
+    color: rgba(255,106,0,1); 
+    margin-top: 25px;
+    margin-bottom:35px;
 }
 .image{
     text-align: center;
@@ -80,11 +91,18 @@ h1{
     text-align: center;
     color: grey;
     padding: 0 80px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     line-height: 20px;
+}
+.column.infoOne .textDecoration p{
+    padding-top: 20px;
 }
 hr{
     width: 30%;
+}
+.hrOne{
+    width: 30%;
+    margin-top: 35px;
 }
 .cost h2{
     font-size: 40px;
@@ -101,7 +119,7 @@ hr{
 }
 .button {
     text-align: center;
-    margin: 35px 0px;
+    margin: 45px 0px;
 }
 .button a{
     text-decoration:none;
@@ -128,7 +146,7 @@ hr{
 }
 .buttonThree{
     text-align: center;
-    margin: 35px 0px;
+    margin: 45px 0px;
 }
 .buttonThree a{
     text-decoration:none;
