@@ -3,13 +3,19 @@
 body{
     padding:0;
     margin:0;
-    background: rgba(255,106,0,1);
+    background: #feceab;
+    background:#ffaa71;
     font-family: 'Open Sans', sans-serif;
 }
 h1{
     margin:20px 30px;
     text-align: center;
 
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row:after{
     content: "";
@@ -18,40 +24,29 @@ h1{
 
 }
 .column{
-    width: 25%;
+    width: 29%;
     float: left;
-    margin: 60px;
+    margin:30px;
     height: 500px;
     border-radius: 20px;
     background-color: white;
 }
+.column.infoOne{
+    width: 320px;
+    background-color: white;
+}
 .column.infoTwo{
-    height: 530px;
+    width: 350px;
+    background-color: white;
+}
+.column.infoThree{
+    width: 320px;
+    background-color: white;
 }
 .icon{
     text-align: center;
     font-size: 40px;
     color: rgba(255,106,0,1); ;
-}
-.header h3{
-    margin:  0px 0 10px 0;
-    text-align: center;
-    font-size: 24px;
-    color: grey;
-}
-.header h3.free{
-    margin-top: -10px;
-}
-.header h3.premium{
-
-}
-.textDecoration p{
-    text-align: center;
-    color: grey;
-    padding-bottom: 25px;
-}
-hr{
-    width: 30%;
 }
 .image{
     text-align: center;
@@ -60,6 +55,36 @@ hr{
 .image img{
     width: 120px;
     height: 90px;
+}
+.imageTwo{
+    text-align: center;
+    margin-top: 15px;
+}
+.imageTwo img{
+    height: 90px;
+}
+.header h3{
+    margin:  0px 0 10px 0;
+    text-align: center;
+    font-size: 24px;
+    color: grey;
+}
+.header h3.free{
+    margin-top: -19px;
+}
+.header h3.plus{
+    margin-top: 15px;
+}
+
+.textDecoration p{
+    text-align: center;
+    color: grey;
+    padding: 0 80px;
+    padding-bottom: 25px;
+    line-height: 20px;
+}
+hr{
+    width: 30%;
 }
 .cost h2{
     font-size: 40px;
@@ -100,4 +125,21 @@ hr{
     -webkit-box-shadow: 2px 15px 66px 3px rgba(255,106,0,0.54);
     -moz-box-shadow: 2px 15px 66px 3px rgba(255,106,0,0.54);
     box-shadow: 2px 15px 66px 3px rgba(255,106,0,0.54);
+}
+.buttonThree{
+    text-align: center;
+    margin: 35px 0px;
+}
+.buttonThree a{
+    text-decoration:none;
+    border: 3px solid rgba(255,106,0,1);;
+    padding: 5px 40px;
+    background: rgba(255,106,0,1);;
+    border-radius: 25px;
+    color: #ffffff;
+}
+.column.infoTwo{
+    -webkit-box-shadow: 2px 13px 63px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 13px 63px -7px rgba(0,0,0,0.75);
+    box-shadow: 2px 13px 63px -7px rgba(0,0,0,0.75);
 }
