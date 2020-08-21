@@ -154,7 +154,7 @@ hr{
     padding: 5px 40px;
     background: rgba(255,106,0,1);;
     border-radius: 25px;
-    
+    color: #ffffff;
 }
 .column.infoTwo{
     -webkit-box-shadow: 2px 13px 63px -7px rgba(0,0,0,0.75);
