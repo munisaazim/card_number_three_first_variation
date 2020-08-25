@@ -208,10 +208,10 @@ hr{
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 1180px;
+        top: 1150px;
     }
     .column.infoOne .mobileInfoOne{
-        width: 70%;
+        width: 60%;
         background-color: white;
         border-radius: 20px;
     }
@@ -227,8 +227,31 @@ hr{
         top: 85px;
     }
     .column.infoThree .mobileInfoThree{
-        width: 70%;
+        width: 60%;
         background-color: white;
         border-radius: 20px;
+    }
+    .textDecoration p {
+        padding: 0 50px;
+    
+        }
+}
+@media(max-width:296px){
+    .textDecoration p {
+        padding: 0 30px;
+    }
+    .buttonThree a {
+        padding: 5px 20px;
+    }
+    .button a{
+        padding: 5px 20px;
+    }
+}
+@media(max-width:252px){
+    .column.infoOne .mobileInfoOne .cost h2 {
+        font-size: 30px;
+    }
+    .column.infoThree .mobileInfoThree .cost h2{
+        font-size: 30px;
     }
 }
