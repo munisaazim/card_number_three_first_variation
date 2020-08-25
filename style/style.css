@@ -266,3 +266,20 @@ hr{
         padding: 5px 10px;
     }
 }
+@media(max-width:186px){
+    .textDecoration p {
+        padding: 0 10px;
+    }
+    .buttonThree a {
+        padding: 5px 5px;
+    }
+    .button a {
+        padding: 5px 5px;
+    }
+    .column.infoThree .mobileInfoThree .cost h2 {
+        font-size: 25px;
+    }
+    .column.infoOne .mobileInfoOne .cost h2 {
+        font-size: 25px;
+    }
+}
