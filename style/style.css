@@ -162,6 +162,11 @@ hr{
     box-shadow: 2px 13px 63px -7px rgba(0,0,0,0.75);
 }
 /*Responsiveness*/
+@media(max-width:886px){
+.column.infoTwo .tabletInfoOne .textDecoration p {
+    padding: 0 60px
+}
+}
 /*Tablet*/
 @media(max-width:823px){
 .row{
@@ -178,7 +183,7 @@ hr{
     position: absolute;
     box-shadow: none;
 }
-.column.column.infoTwo .tabletInfoOne{
+.column.infoTwo .tabletInfoOne{
     width: 350px;
     background-color: white;
     border-radius: 20px;
@@ -196,7 +201,6 @@ hr{
 }
 }
 /*Mobile responsiveness*/
-
 /*Free & Plus*/
 @media(max-width:599px){
     .column{
