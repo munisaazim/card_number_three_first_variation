@@ -195,3 +195,40 @@ hr{
     width: 45%;
 }
 }
+/*Mobile responsiveness*/
+@media(max-width:599px){
+    .column{
+        width: 100%;
+    }
+    .column.infoOne{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 1180px;
+    }
+    .column.infoOne .mobileInfoOne{
+        width: 70%;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+       .column.infoThree{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 85px;
+    }
+    .column.infoThree .mobileInfoThree{
+        width: 70%;
+        background-color: white;
+        border-radius: 20px;
+    }
+}
